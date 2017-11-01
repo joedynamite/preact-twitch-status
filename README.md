@@ -12,7 +12,7 @@ This component includes no styles, it is a very basic HTML component that you sh
 
 ### Using the `Renderer`
 
-If you’re using a static site like I am, you could download the latest release. Then include the minified JavaScript file, and instantiate a `Renderer` on your page.
+If you’re using a static site like I am, you could [download](https://github.com/joedynamite/preact-twitch-status/releases/download/1.0.0/preact-twitch-status.zip) the latest release. Then include the minified JavaScript file, and instantiate a `Renderer` on your page.
 
 ```html
 <!doctype html>
