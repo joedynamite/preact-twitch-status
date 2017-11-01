@@ -39,7 +39,14 @@ The `constructor` accepts two arguments, the first is an HTML `id` for the eleme
 
 ### Using the `Component`
 
-You should be able to import the component directly into another Preact project and use it like you would expect. Valid props are listed below.
+Install first using either Yarn or NPM.
+
+```
+$ yarn add preact-twitch-status
+$ npm install --save preact-twitch-status
+```
+
+Then you should import the component directly into another Preact project and use it like you would expect. Valid props are listed below.
 
 ```javascript
 import { h, Component } from 'preact';
