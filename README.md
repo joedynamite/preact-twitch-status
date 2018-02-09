@@ -4,7 +4,7 @@ TwitchStatus is a small [Preact](https://preactjs.com) component I built to show
 
 I know this implementation is less than ideal and will probably hit rate limits pretty quickly, especially with polling on, but it was for fun. If Twitch releases an officially documented webhook or WebSocket event for this I will probably update the component.
 
-I chose Preact because of its small size so that I could include it in a distributable as a self-contained “Renderer” that could be used on static HTML sites. When minified and gzipped the distributable is less than 5kB.
+I chose Preact because of its small size so that I could include it in a distributable as a self-contained “Renderer” that could be used on static HTML sites. When minified and gzipped the distributable is less than 4kB.
 
 This component includes no styles, it is a very basic HTML component that you should be able to style in your application to fit your visual language.
 
