@@ -27,7 +27,7 @@ If you’re using a static site like I am, you could [download](https://github.c
     <script src="/javascripts/twitch-status.min.js"></script>
     <script>
       new TwitchStatus.Renderer('twitch-status', {
-        userLogin: 'joebilt',
+        userLogin: 'joedynamitetv',
         clientId: 'my-secret-client-id'
       });
     </script>
@@ -56,7 +56,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <TwitchStatus userLogin="joebilt" clientId="my-secret-client-id" />
+        <TwitchStatus userLogin="joedynamitetv" clientId="my-secret-client-id" />
       </div>
     );
   }
